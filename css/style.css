@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+	--contenido: #898989;
+	--negro-oscuro: #282d33;
+	--fondo-footer: #30363d;
+	--fondo-gris: #f5f5f5;
+}
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	color: #777;
+	ba
+}
+header{
+	position: relative;
+	background-color: #f9f9f9;
+	width: 100%;
+	top:0;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 30px;
+	color: #999;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p{
+	margin-bottom: 0;
+}
+
+#hero{
+	background-image: url( "../img/home-slide.jpg");
+	background-size: cover;
+	
+}
+
+#hero span{
+	display: grid;
+	align-content: center;
+	height: 100%;
+	text-align: left;
+	margin: 60px 600px 60px 0;
+}
+
+#hero span h1{
+	font-size: 80px;
+	text-transform: capitalize;
+	color: var(--negro-oscuro);
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-right: 150px;
+}
+
+#hero span p{
+	font-size: 20px;
+	color: var(--contenido);
+	margin-bottom: 30px;		
+}
+
+.btn-dark{
+	background-color: var(--negro-oscuro);
+	border-radius: 50px;
+	width: 150px;
+	height: 50px;
+	font-weight: 700;
+		
+}
+
+.fondo-negro{
+	background-color: var(--negro-oscuro)
+}
+
+#cta-products span{
+	text-align: center;
+	color: white;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
